@@ -1,0 +1,190 @@
+	.noti,.notiy
+   	{
+   		color: white;
+   		display: block;
+   		height: 20px;
+   		width: 20px;
+   		border-radius: 50%;
+   		text-align: center;
+        float: right;
+        top: 60%;
+        left: 100%;
+        position: relative;
+        right: 30px;
+   	}
+   	.noti{background:black;}
+   	.notiy{background:#007bff;}
+   	.nimg
+   	{
+   		height: 100px;
+   	}
+   	.mt-4
+   	{
+   		height: 60px;
+   		background:url('a.jpg') center center ;
+   		background-size: cover;
+   		width: 60px;
+   		margin: 0 auto;
+   		border-radius: 50%;
+   		border:3px solid black;
+   	}
+   	.y
+   	{
+   		height: 60px;
+   		background:url('a.jpg') center center ;
+   		background-size: cover;
+   		width: 60px;
+   		margin: 0 auto;
+   		border-radius: 50%;
+   		border:3px solid #007bff;
+   	}
+   	
+   	.tab
+   	{
+       height: 36px;
+       position: absolute;
+       display: inline-block; 
+   	}
+    .tab0
+    {
+      border-bottom: 5px solid #007bff;
+    }
+   	.first-div
+   	{
+   		padding: 0px;border:1px solid #eee;margin-left: 15px;
+   	}
+   	.sec-div{
+   		padding: 0px;margin-left: 10px;border:1px solid #eee;
+   	}
+   	.name
+   	{
+   		height: 50px;padding: 0px;
+   	}
+
+@media screen and (max-width: 600px) {
+
+   .tab1
+   {
+    left: 40%;
+   }
+
+   .tab2
+   {
+    left:70%;
+   }
+
+   .nimg
+    {
+      margin-left: -15px;
+      height: 80px;
+      width: 100px;
+    }
+
+    .pic
+    {
+      position: absolute;
+      top: -20%;
+      left: 35%;
+    }
+    .name
+    {
+      position: absolute;
+      top: 10%;
+      left:28%;
+    }
+    .first-div{
+      margin-left: 10px;
+    }
+    .top5
+    {
+      margin-left: -15px;
+    }
+   .sm
+   {
+    margin-top: 10px;
+   } 
+}
+
+@media screen and (min-width: 600px)  and (max-width: 750px){
+
+   .nimg
+    {
+      margin-left: 0px;
+      height: 80px;
+      width: 100px;
+    }
+
+    .pic
+    {
+      position: absolute;
+      top: -20%;
+      left: 35%;
+    }
+    .name
+    {
+      position: absolute;
+      top: 10%;
+      left:28%;
+    }
+    .first-div{
+      margin-left: 10px;
+    }
+    .top5
+    {
+      margin-left: -15px;
+    }
+   .sm
+   {
+    margin-top: 10px;
+   } 
+
+}
+@media screen and (min-width: 770px)  and (max-width: 990px){
+
+.rt
+{
+  width: 250%;
+}
+.rt1
+{
+  width: 150%;
+}
+
+.first-div{
+  width: 50px;
+  margin-left: 10px;
+}
+.nimg
+    {
+      margin-left: 0px;
+      height: 80px;
+      width: 100px;
+    }
+
+    .pic
+    {
+      position: absolute;
+      top: -20%;
+      left: 35%;
+    }
+    .name
+    {
+      position: absolute;
+      top: 10%;
+      left:28%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
